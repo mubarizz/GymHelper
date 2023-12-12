@@ -14,6 +14,7 @@
 		AACE7FFA2B28E7EE00847E04 /* GymHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACE7FF92B28E7EE00847E04 /* GymHelperTests.swift */; };
 		AACE80042B28E7EE00847E04 /* GymHelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACE80032B28E7EE00847E04 /* GymHelperUITests.swift */; };
 		AACE80062B28E7EE00847E04 /* GymHelperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACE80052B28E7EE00847E04 /* GymHelperUITestsLaunchTests.swift */; };
+		AACE80132B28E80500847E04 /* ExerciseModell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACE80122B28E80500847E04 /* ExerciseModell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		AACE7FFF2B28E7EE00847E04 /* GymHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GymHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AACE80032B28E7EE00847E04 /* GymHelperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymHelperUITests.swift; sourceTree = "<group>"; };
 		AACE80052B28E7EE00847E04 /* GymHelperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymHelperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AACE80122B28E80500847E04 /* ExerciseModell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseModell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				AACE7FE82B28E7ED00847E04 /* GymHelperApp.swift */,
 				AACE7FEA2B28E7ED00847E04 /* ContentView.swift */,
+				AACE80122B28E80500847E04 /* ExerciseModell.swift */,
 				AACE7FEC2B28E7EE00847E04 /* Assets.xcassets */,
 				AACE7FEE2B28E7EE00847E04 /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AACE80132B28E80500847E04 /* ExerciseModell.swift in Sources */,
 				AACE7FEB2B28E7ED00847E04 /* ContentView.swift in Sources */,
 				AACE7FE92B28E7ED00847E04 /* GymHelperApp.swift in Sources */,
 			);
