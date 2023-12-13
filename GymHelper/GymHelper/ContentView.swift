@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-
 struct exercise: Identifiable{
     var id = UUID()
     var name: String
@@ -55,13 +54,8 @@ struct ContentView: View {
                            Button("Clear the List"){
                                ExerciseData.clearExercises()
                            }
-                           Button("Save the Data"){
-                               ExerciseData.saveExercises()
-                           }
-                           Button("Upload the Data"){
-                               ExerciseData.loadExercises()
-                           }
                            
+                                                      
                        }
                        .background(Color(hex: "092635"))
                        .navigationTitle("Add Exercise ")
